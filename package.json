@@ -1,0 +1,33 @@
+{
+  "name": "bot_template",
+  "version": "1.0.0",
+  "description": "A template for a slash command bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "slash commands"
+  ],
+  "author": "Felix Schubert",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "chai": "^4.2.0",
+    "common-tags": "^1.8.0",
+    "cron": "^1.8.2",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "hastebin": "^0.2.1",
+    "mocha": "^7.1.0",
+    "mongoose": "^5.8.6",
+    "ms": "latest",
+    "node-fetch": "latest",
+    "opusscript": "0.0.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {}
+}

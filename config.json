@@ -1,0 +1,6 @@
+{
+  "paths": {
+    "commands": "./commands",
+    "events": "./events"
+  }
+}
